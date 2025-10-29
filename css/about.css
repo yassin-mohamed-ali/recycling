@@ -1,0 +1,45 @@
+.ul-of-names{
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.names-of-ul-of-names{
+    text-align: center;
+    margin-left: 14%;
+}
+#beggining-name{
+    margin-left: 2%;
+}
+.Customers div{
+    width: 10% !important;
+    display: inline-block !important;
+}
+.images-of-top-volunteers > div {
+    flex: 0 0 auto;
+    width: 16%;
+}
+.Customers{
+    height: 10vw !important;
+}
+li{
+    list-style-type: none;
+}
+.images-of-top-volunteers{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 767px) {
+    .names-of-ul-of-names{
+        margin-left: 6%;
+    }
+    #beggining-name{
+        
+        margin-left: 1.5%;
+    }
+
+}
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+    .names-of-ul-of-names{
+        margin-left: 11%;
+    }
+}
